@@ -1,0 +1,5 @@
+openpyxl
+customtkinter
+win32api
+pyautogui
+PIL
