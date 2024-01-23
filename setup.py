@@ -25,14 +25,14 @@ REQUIRES = read_requirements_file("requirements.txt")
 
 # Setup
 setup(
-	name='Ideal-Home-Location-Matcher',
+	name='Business-Analytics-Desktop-App',
 	version='1.0',
 	author='Andrew Drogalis',
-    author_email='andrew.drogalis2@gmail.com',
-    description="A collection of weather, natural disaster, and US Census data processed and ranked to find the ideal home location for each individual's preferences.",
+    author_email='108765079+andrew-drogalis@users.noreply.github.com',
+    description="A GUI for displaying aggregated customer data, calculating business metrics, and organizing the information on a per client basis.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/andrew-drogalis/Ideal-Home-Location-Matcher',
+    url='https://github.com/andrew-drogalis/Business-Analytics-Desktop-App',
     python_requires=">=3.6.0",
     packages=find_packages(),
     include_package_data=True,
