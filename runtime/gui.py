@@ -100,8 +100,8 @@ class App(customtkinter.CTk):
         self.main_frame.grid_rowconfigure(4, weight=1)
         self.main_frame.grid_columnconfigure((3,5), weight=1)
         # App Title
-        title_label = customtkinter.CTkLabel(self.main_frame, text="pierpont mechanical business analytics", fg_color='#222', corner_radius=6, text_color='#f5f5f5', font=title_font)
-        title_label.grid(row=0, column=0, columnspan=7, ipadx=10, ipady=1, padx=25, pady=10, sticky='n')
+        # title_label = customtkinter.CTkLabel(self.main_frame, text="pierpont mechanical business analytics", fg_color='#222', corner_radius=6, text_color='#f5f5f5', font=title_font)
+        # title_label.grid(row=0, column=0, columnspan=7, ipadx=10, ipady=1, padx=25, pady=10, sticky='n')
 
         # Project Navigation
         self.seg_button_1 = customtkinter.CTkSegmentedButton(self.main_frame, font=self.regular_font, command=self.maintenance_construction_navigation)
